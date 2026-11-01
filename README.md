@@ -248,4 +248,123 @@ HTTP status codes indicate whether a request was successful or encountered an er
 
 In this experiment, the home, about, and time routes normally return status code 200. An undefined route returns status code 404.
 
-## 13. Testing the
+13. Testing the Application
+
+After writing the server code, start the Express server using:
+
+node server.js
+
+The terminal displays:
+
+Express server running on port 3000
+
+Open Google Chrome and test the following URLs:
+
+http://localhost:3000/
+
+http://localhost:3000/about
+
+http://localhost:3000/time
+
+http://localhost:3000/unknown
+
+Each URL produces a different response depending on the route.
+
+14. Screenshots of Output
+
+Add your actual browser screenshots below these headings:
+
+Home Page Output
+
+
+
+About Page Output
+
+
+
+Time Page Output
+
+
+
+404 Error Output
+
+
+
+15. Difference Between Node.js HTTP Server and Express Server
+
+Node.js HTTP Server
+
+Express Server
+
+Uses the built-in HTTP module
+
+Uses the Express framework
+
+Requires more manual handling
+
+Provides simple methods
+
+Routing must be handled manually
+
+Provides built-in routing
+
+Suitable for basic servers
+
+Suitable for web applications and APIs
+
+Less abstraction
+
+Provides more features
+
+16. Advantages of Express.js
+
+Simple and easy to learn.
+
+Makes routing easier.
+
+Supports middleware functions.
+
+Helps create REST APIs.
+
+Supports JSON responses.
+
+Works with many databases.
+
+Saves development time.
+
+17. Applications of Node.js and Express.js
+
+Developing web applications.
+
+Creating REST APIs.
+
+Building backend services.
+
+Developing real-time applications.
+
+Handling client-server communication.
+
+Creating online shopping and booking systems.
+
+18. Conclusion
+
+In this lab, I learned how to create a basic HTTP server using Node.js and an Express server using Express.js. I understood how to initialize a Node.js project, install packages, create routes, and send different types of responses to the browser.
+
+I also learned how to return JSON data, display the current date and time, and handle undefined routes using a 404 status code.
+
+This experiment helped me understand the basic concepts of backend development and how a server communicates with a client.
+
+19. GitHub Repository
+
+Repository Link:
+https://github.com/bollinanithyasri-art/Backend-
+
+Student Details:
+
+Name: B. Nithya Sri
+
+Registration Number: 252U1R5028
+
+Section: CSE-AIDE
+
+Course: Backend Development Fundamentals
